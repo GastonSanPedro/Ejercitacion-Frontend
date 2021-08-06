@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+header p {
+  background: #d1891c;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #000000;
+  padding-left: 3%;
+}
+header h1 {
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.6rem;
+  line-height: 3rem;
+  padding-left: 3%;
+  color: #ffffff;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3f3f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 300px;
+  height: 600px;
+  border-radius: 15px 15px 0px 0px;
+  position: relative;
+
+}
+.batman {
+  background-image: url("../img/fondobatman.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.mujer {
+  background-image: url("../img/fondo\ mujermaravilla.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.superman {
+  background-image: url("../img/fondo\ superman.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.Harley{
+  background-image: url("../img/fondoharley.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: none;
+}
+.corazon {
+  width: 6%;
+  height: 3%;
+  position: absolute;
+  left: 7%;
+  top: 4%;
+  margin-top: 0%;
+}
+img {
+  width: 33%;
+  border-radius: 50%;
+  margin-top: 37%;
+}
+h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 75px;
+  text-align: center;
+  color: #000000;
+}
+section p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #333333;
+  margin: -2% 4% 2% 4%;
+}
+button {
+  background: #00669f;
+  border-radius: 7px;
+  width: 40%;
+  height: 7%;
+  margin-bottom: 5%;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #f3f3f3;
+}
+footer {
+  background: #00669f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.1rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #fff9f9;
+  margin-top: 1rem;
+  margin-bottom: 2%;
+}
+footer img {
+  width: 3.5rem;
+  border-radius: 0%;
+  margin-top: 0%;
+  margin-bottom: 1rem;
+}
+@media(min-width: 469px){
+  main {
+    display: flex;
+    align-content: center;
+    margin-left: 0%;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 300px;
+    height: 600px;
+    border-radius: 15px 15px 0px 0px;
+    position: relative;
+  }
+  .lineasrow{
+    display: flex;
+    width: 92%;
+    justify-content:space-around;
+  }
+  .Harley{
+    display:flex;
+  }
+  section p{
+    font-size: 0.8rem;
+  }
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+  }
+  footer img{ 
+    position: absolute;
+    right: 1%;
+    width: 8%;
+    margin-bottom: 0.2rem;  
+  }
+  .mas{
+    width: 50px;
+    height: 50px;
+    background: #00669F;
+    border-radius: 50%;
+    position: absolute;
+    right: 13%;
+  }
+}

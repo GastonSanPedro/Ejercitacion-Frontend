@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Clase16 frontend</title>
+</head>
+<body>
+    <header>
+        <p>20% de descuento en todos los productos!</p>
+        <section class="headuno">
+            <img src="img/logo (3).png" alt="compulogo">
+            <h1>Nombre Tienda</h1>
+            <a class="inicio" href="index.html"> Volver al inicio</a>
+        </section>
+        <section>
+            <div class="headdos" type="none">
+                <a href="contacto.html">Contacto</a>
+                <a href="registro.html">Registrarme</a>
+                <a href="ingreso.html">Ingresar</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <form class="formulariomas" action="">
+                <label class="titulomas">Añadi tu super!</label>
+                <label class="titulosmassecundarios uno"for="">Agregá tu personaje favorito completando las opciones.</label>
+                <article class="contenedordatos"> 
+                    <section>
+                        <label class="titulosmassecundarios" for="Nombre">*Nombre</label>
+                        <input class="indatos" type="text" id="Nombre" name="Nombre">
+                        <label class="titulosmassecundarios" for="fecha">Fecha</label>
+                        <input class="indatos" type="date" name="fecha" id="fecha">
+                        <textarea class="indatostxt" name="comentario" id="comentario" placeholder="Descripcion"></textarea>
+                    </section>
+                    <section>
+                        <article class="especie">
+                            <label class="titulosmassecundarios" for="Especie">*Especie</label>
+                            <select name="especie" id="especie">
+                                <option value="Especie" hidden selected>Especie</option>
+                                <option value="unknow">unknow</option>
+                            </select>
+                        </article>
+                        <article class="adjuntarfoto">
+                            <label class="titulosmassecundarios" for="foto">Agregar foto</label>
+                            <input type="file" name="foto" id="foto" accept=".jpg" multiple placeholder="Seleccionar archivo">
+                        </article>
+                        <article class="poderes"> 
+                            <label class="titulosmassecundarios" for="poderes">Poderes</label>
+                            <br>
+                            <br>
+                                <input class="box" type="checkbox" name="poderes" id="volar" value="Volar">
+                                <label for="volar">Volar</label>
+                            <br>
+                                <input class="box" type="checkbox" name="poderes" id="SuperInteligencia" value="SuperInteligencia">
+                                <label for="SuperInteligencia">SuperInteligencia</label>
+                            <br>
+                                <input class="box" type="checkbox" name="poderes" id="Vista de rayo láser" value="Vista de rayo láser">
+                                <label for="Vista de rayo láser">Vista de rayo láser</label>
+                            <br>
+                                <input class="box" type="checkbox" name="poderes" id="Billetera gorda" value="Billetera gorda">
+                                <label for="Billetera gorda">Billetera gorda</label>
+                            <br>
+                            <br>
+                            
+                                <hr>
+                            </article>
+                        <article class="tipo"> 
+                            <label class="titulosmassecundarios" for="Tipo de personaje">Tipo de personaje</label>
+                            <br>
+                            <br>
+                            <input class="radio" type="radio" name="Héroe / Heroina" id="Héroe / Heroina" value="Héroe / Heroina">
+                            <label for="Héroe / Heroina">Héroe / Heroina</label>
+                            <br>
+                            <br>
+                            <input class="radio" type="radio" name="Villano / Villana" id="Villano / Villana" value="Villano / Villana">
+                            <label for="Villano / Villana">Villano / Villana</label>
+                        </article>
+                    </section>
+                </article>
+                <button>Añadir</button>
+        </form>
+    </main>
+        <footer>
+            Todos los derechos reservados a FRONT END 1
+        </footer>
+</body>
+</html>

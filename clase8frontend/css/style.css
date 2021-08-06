@@ -1,0 +1,122 @@
+#fondopag1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8T2mzEN-ixbb45nqnK-xZ37MbOlmHxdoI0A&usqp=CAU');
+    
+}
+#background{
+    background-color: #E5E5E5;
+    height: 150px;
+}
+/* Falta alinear logo */
+#imagenlogo{
+    display:block;
+    margin:auto;
+    width: 150px;
+    height: 150px;
+}
+/* Alinie el logo */
+    
+#fondotitulos{
+    background-color: #C4C4C4;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35;
+    color: #005677;
+    letter-spacing: 18px;
+
+}
+h2{
+    color: #005677;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:20;
+    font-weight: bold;
+    background-color: #C4C4C4;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+ul{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15;
+}
+.negrita{
+    font-weight: bold;
+}
+.alinear{
+    margin-left: 8.5%;
+}
+#footer{
+    color:white;
+    background-color: #005677;
+    text-align: center;
+    display:block;
+    margin:auto;
+    font-weight: bold;
+}
+.negrita-italic{
+    font-style: italic;
+    font-weight: bold;
+}
+
+span#tel{
+    text-decoration: underline;
+    font-weight: bold;
+}
+#enlace{
+    margin-left: 16.5%;
+    margin-right: 16.5%;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(230, 181, 113);
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+    
+}
+/* segunda pagina "sobre mi.html" */
+.title{
+    background-color: #C4C4C4;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35;
+    color: #005677;
+    letter-spacing: 16px;
+    
+}
+.subtitle{
+    background-color: #C4C4C4;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: #005677;
+}
+article{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+strong{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: underline;
+}
+.negrita-italic#otrapag{
+    font-size: 22px;
+}
+#fondosobremi{
+    background-image: url('https://images.genial.ly/5cdbd9febef14a0fcc951e75/38226f32-429d-4c6d-a3f5-c89121fafccc.png');
+}
+#enlace2{
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(230, 181, 113);
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+    font-size: 25px;
+}
+#fondopag2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8T2mzEN-ixbb45nqnK-xZ37MbOlmHxdoI0A&usqp=CAU');
+}
