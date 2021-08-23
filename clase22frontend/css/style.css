@@ -1,0 +1,139 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+header .header1 {
+  background-color: #e5e5e5;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+header .header1 img {
+  width: 150px;
+  height: 150px;
+}
+
+header .header2 {
+  background-color: #c4c4c4;
+  width: 100vw;
+}
+
+header .header2 h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #005677;
+}
+
+main {
+  margin-top: 8rem;
+}
+
+main section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+main section h1 {
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.1rem;
+  line-height: 84.69%;
+  color: #005677;
+  background-color: #c4c4c4;
+  margin-top: 2rem;
+  width: 100vw;
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+main section .negrita {
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 0.3rem;
+}
+
+main section .listadelistas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 2rem;
+  margin-top: 1.5rem;
+}
+
+main section .listadelistas li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 0.15rem;
+  font-family: Times New Roman;
+  font-size: 1rem;
+  color: #000000;
+}
+
+footer {
+  margin-top: 8rem;
+  background: #005677;
+}
+
+footer section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+}
+
+footer section p, footer section img {
+  font-family: Times New Roman;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #FFFFFF;
+  margin-right: 1rem;
+}
+/*# sourceMappingURL=style.css.map */
